@@ -19,7 +19,7 @@ const Testimonials = () => {
         </span>
       </h1>
       <p className="text-center text-gray-500 mb-12 max-w-80 mx-auto">
-        Real Stories from Those Who Found Home with Us
+        Real stories from clients who trust Lance with their technical support needs.
       </p>
       <div className="flex flex-wrap justify-center gap-8">
         {testimonialsData.map((testimonial, index) => (

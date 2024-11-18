@@ -18,8 +18,8 @@ const Navbar = () => {
   return (
     <div className="absolute top-0 left-0 w-full z-10">
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
-        <img src={assets.logo} alt="" />
-        <ul className="hidden md:flex gap-7 text-white">
+        <img className="w-40 opacity-70 rounded-full" src={assets.logo2} alt="" />
+        <ul className="hidden text-5xl md:flex gap-7 text-white bg-black opacity-70 rounded font-medium">
           <a href="#Header" className="cursor-pointer hover:text-gray-400">
             Home
           </a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             About
           </a>
           <a href="#Projects" className="cursor-pointer hover:text-gray-400">
-            Projects
+            Services
           </a>
           <a
             href="#Testimonials"
@@ -36,7 +36,7 @@ const Navbar = () => {
             Testimonials
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full">
+        <button className="hidden md:block opacity-0 bg-white px-8 py-2 rounded-full">
           Sign up
         </button>
         <img
@@ -80,7 +80,7 @@ const Navbar = () => {
             href="#Projects"
             className="px-4 py-2 rounded-full inline-block"
           >
-            Projects
+            Services
           </a>
           <a
             onClick={() => setShowMobileMenu(false)}

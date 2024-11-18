@@ -16,6 +16,18 @@ import project_img_6 from './project_img_6.jpg'
 import profile_img_1 from './profile_img_1.png'
 import profile_img_2 from './profile_img_2.png'
 import profile_img_3 from './profile_img_3.png'
+import testimonial2_img from './testimonial2_img.jpg'
+import service_img1 from './service_img1.jpg'
+import service_img2 from './service_img2.jpg'
+import service_img3 from './service_img3.jpg'
+import service_img4 from './service_img4.jpg'
+import service_img5 from './service_img5.jpg'
+import service_img6 from './service_img6.jpg'
+import service_img7 from './service_img7.jpg'
+import service_img8 from './service_img8.jpg'
+import header_img2 from './header_img2.jpg'
+import logo2 from './logo2.jpg'
+import about_img1 from './about_img1.jpg'
 
 export const assets = {
     logo,
@@ -31,71 +43,102 @@ export const assets = {
     project_img_4,
     left_arrow,
     right_arrow,
+    testimonial2_img,
+    service_img1,
+    service_img2,
+    service_img3,
+    service_img4,
+    service_img5,
+    service_img6,
+    service_img7,
+    service_img8,
+    header_img2,
+    logo2,
+    about_img1
 }
 
 export const projectsData = [
     {
-      title: "Skyline Haven",
-      price: "$2,50,000",
-      location: "California",
-      image: project_img_1
+      title: "PC Setup & Configuration:",
+      price: "$150",
+      location: "",
+      image: service_img1
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_2
+      title: "Printer Setup & Troubleshooting",
+      price: "$100",
+      location: "",
+      image: service_img2
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_3
+      title: "Virus & Malware Removal",
+      price: "$100",
+      location: "",
+      image: service_img3
     },
     {
-      title: "Central Square",
-      price: "$2,50,000",
-      location: "Los Angeles",
-      image: project_img_4
+      title: "Data Backup & Recovery",
+      price: "$50",
+      location: "",
+      image: service_img4
     },
     {
-      title: "Vista Verde",
-      price: "$2,50,000",
-      location: "San Francisco",
-      image: project_img_5
+      title: "Software Installation & Updates",
+      price: "$50",
+      location: "",
+      image: service_img5
     },
     {
-      title: "Serenity Suites",
-      price: "$2,50,000",
-      location: "Chicago",
-      image: project_img_6
+      title: "Wi-Fi Network Setup & Optimization",
+      price: "$50",
+      location: "",
+      image: service_img6
     },
+    {
+      title: "Smartphone Troubleshooting (Android)",
+      price: "$50",
+      location: "",
+      image: service_img8
+    },
+    {
+      title: "Hardware Upgrades (RAM, SSD, etc.)",
+      price: "$50",
+      location: "",
+      image: service_img7
+    },
+    {
+      title: "Operating System Reinstallation:",
+      price: "$100",
+      location: "",
+      image: service_img6
+    },
+    
     
   ];
 
   export const testimonialsData = [
     {
-        name: "Donald Jackman",
-        title: "Marketing Manager",
+        name: "Jason Rivera",
+        title: "Operations",
         image: profile_img_1,
         alt: "Portrait of Donald Jackman",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "I was completely stuck with figuring out how to set up my new printer in the office and within minutes of contacting Lance, I received clear, step-by-step support that solved my issue right away. The service was fast, friendly, and incredibly knowledgeable. Highly recommend for anyone needing reliable tech help!"
     },
     {
-        name: "Richard Nelson",
-        title: "UI/UX Designer",
-        image: profile_img_2,
+        name: "Edith Oldenson",
+        title: "Retired",
+        image: testimonial2_img,
         alt: "Portrait of Richard Nelson",
-        rating: 4,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        rating: 5,
+        text: "As someone who's not very tech-savvy, I was nervous about getting my computer fixed. Lance made the whole experience easy and stress-free. He was patient, explained everything in simple terms, and resolved my Windows PC issues quickly. I couldn’t be happier with the service!"
     },
     {
-        name: "James Washington",
-        title: "Co-Founder",
+        name: "Danny Dimes",
+        title: "Photographer",
         image: profile_img_3,
         alt: "Portrait of James Washington",
         rating: 5,
-        text: "From the very first meeting, they understood my vision and helped me find the perfect property. Their attention to detail and commitment to client satisfaction is unmatched."
+        text: "Lance went above and beyond in helping me recover data from my crashed laptop. He not only fixed the problem but also backed up my data to prevent it this situation from happening again. I’ve never felt more confident in Lance for my tech support needs. Truly outstanding!"
     }
 ];

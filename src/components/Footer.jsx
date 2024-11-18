@@ -6,8 +6,9 @@ const Footer = () => {
     <div className='pt-10 px-4 md:px-20 lg:px-32 bg-gray-900 w-full overflow-hidden' id='Footer'>
       <div className='container mx-auto flex flex-col md:flex-row justify-between items-start'>
         <div className='w-full md:w-1/3 mb-8 md:mb-0'>
-            <img src={assets.logo_dark} alt="" />
-            <p className='text-gray-400 mt-4'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the indstury's standard dummy text.</p>
+            <img className='w-20 rounded-full' src={assets.logo1} alt="" />
+            <p className='text-gray-400 mt-4'>Need help?
+            Our team is here to assist you with all your tech-related questions and issues. Contact us for fast, friendly, and reliable support.</p>
         </div>
         <div className='w-full md:w-1/5 mb-8 md:mb-0'>
             <h3 className='text-white text-lg font-bold mb-4'>Company</h3>

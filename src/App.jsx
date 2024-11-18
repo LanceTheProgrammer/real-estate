@@ -7,6 +7,7 @@ import Contact from "./components/Contact";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Footer from "./components/Footer";
+import { InlineWidget } from "react-calendly";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Header />
       <About />
       <Projects />
+      <InlineWidget url="https://calendly.com/ljpruitt123" />
       <Testimonials />
       <Contact />
       <Footer />
